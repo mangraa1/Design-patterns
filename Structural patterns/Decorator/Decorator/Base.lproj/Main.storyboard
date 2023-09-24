@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Decorator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mbcls3" translatesAutoresizingMaskIntoConstraints="NO" id="7P8-aN-jbH">
+                                <rect key="frame" x="16" y="334" width="361" height="282"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="282" id="Ai3-oG-eDJ"/>
+                                    <constraint firstAttribute="width" constant="361" id="fL3-h0-Z56"/>
+                                </constraints>
+                            </imageView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="c67-dq-xci">
+                                <rect key="frame" x="16" y="673" width="361" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Base"/>
+                                    <segment title="Gold"/>
+                                    <segment title="Premium"/>
+                                </segments>
+                                <color key="selectedSegmentTintColor" systemColor="systemMintColor"/>
+                                <connections>
+                                    <action selector="equipmentSegment:" destination="BYZ-38-t0r" eventType="valueChanged" id="Zfk-tI-nDJ"/>
+                                </connections>
+                            </segmentedControl>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="eYg-tG-snZ">
+                                <rect key="frame" x="126.00000000000001" y="159" width="141.33333333333337" height="32.666666666666657"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tTp-SJ-tpp">
+                                        <rect key="frame" x="0.0" y="0.0" width="63.333333333333336" height="32.666666666666664"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="27"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="700 $" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Dm-Rl-Y7x">
+                                        <rect key="frame" x="73.333333333333343" y="0.0" width="68" height="32.666666666666664"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="27"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FdN-9a-Lcx">
+                                <rect key="frame" x="169" y="237.66666666666666" width="55.333333333333343" height="32.666666666666657"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="FdN-9a-Lcx" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="5FK-MY-ntD"/>
+                            <constraint firstItem="7P8-aN-jbH" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="8x0-N6-WWd"/>
+                            <constraint firstItem="FdN-9a-Lcx" firstAttribute="top" secondItem="eYg-tG-snZ" secondAttribute="bottom" constant="46" id="Jhr-AA-NV6"/>
+                            <constraint firstItem="eYg-tG-snZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="PzW-JF-nI8"/>
+                            <constraint firstItem="eYg-tG-snZ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="uHV-nH-eRC"/>
+                            <constraint firstItem="7P8-aN-jbH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="275" id="wdJ-XA-6IP"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="equipmentLabel" destination="FdN-9a-Lcx" id="4tb-NU-Kdf"/>
+                        <outlet property="priceLabel" destination="2Dm-Rl-Y7x" id="OKK-cy-wj2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135.1145038167939" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mbcls3" width="300" height="225"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
