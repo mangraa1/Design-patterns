@@ -7,29 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0431D90F2AC4AD2C00A4B155 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431D90E2AC4AD2C00A4B155 /* AppDelegate.swift */; };
-		0431D9112AC4AD2C00A4B155 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431D9102AC4AD2C00A4B155 /* SceneDelegate.swift */; };
-		0431D9132AC4AD2C00A4B155 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431D9122AC4AD2C00A4B155 /* ViewController.swift */; };
-		0431D9162AC4AD2C00A4B155 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0431D9142AC4AD2C00A4B155 /* Main.storyboard */; };
-		0431D9182AC4AD2D00A4B155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0431D9172AC4AD2D00A4B155 /* Assets.xcassets */; };
-		0431D91B2AC4AD2D00A4B155 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0431D9192AC4AD2D00A4B155 /* LaunchScreen.storyboard */; };
-		0431D9232AC4AD4900A4B155 /* DayPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431D9222AC4AD4900A4B155 /* DayPickerView.swift */; };
+		04BF95DC2AC5E67100EC610F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF95DB2AC5E67100EC610F /* AppDelegate.swift */; };
+		04BF95DE2AC5E67100EC610F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF95DD2AC5E67100EC610F /* SceneDelegate.swift */; };
+		04BF95E02AC5E67100EC610F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF95DF2AC5E67100EC610F /* ViewController.swift */; };
+		04BF95E32AC5E67100EC610F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BF95E12AC5E67100EC610F /* Main.storyboard */; };
+		04BF95E52AC5E67200EC610F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BF95E42AC5E67200EC610F /* Assets.xcassets */; };
+		04BF95E82AC5E67200EC610F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BF95E62AC5E67200EC610F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0431D90B2AC4AD2C00A4B155 /* Bridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0431D90E2AC4AD2C00A4B155 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0431D9102AC4AD2C00A4B155 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0431D9122AC4AD2C00A4B155 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0431D9152AC4AD2C00A4B155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0431D9172AC4AD2D00A4B155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0431D91A2AC4AD2D00A4B155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0431D91C2AC4AD2D00A4B155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0431D9222AC4AD4900A4B155 /* DayPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPickerView.swift; sourceTree = "<group>"; };
+		04BF95D82AC5E67100EC610F /* Flyweight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flyweight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BF95DB2AC5E67100EC610F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04BF95DD2AC5E67100EC610F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04BF95DF2AC5E67100EC610F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04BF95E22AC5E67100EC610F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04BF95E42AC5E67200EC610F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04BF95E72AC5E67200EC610F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04BF95E92AC5E67200EC610F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0431D9082AC4AD2C00A4B155 /* Frameworks */ = {
+		04BF95D52AC5E67100EC610F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,105 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0431D9022AC4AD2C00A4B155 = {
+		04BF95CF2AC5E67100EC610F = {
 			isa = PBXGroup;
 			children = (
-				0431D90D2AC4AD2C00A4B155 /* Bridge */,
-				0431D90C2AC4AD2C00A4B155 /* Products */,
+				04BF95DA2AC5E67100EC610F /* Flyweight */,
+				04BF95D92AC5E67100EC610F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0431D90C2AC4AD2C00A4B155 /* Products */ = {
+		04BF95D92AC5E67100EC610F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0431D90B2AC4AD2C00A4B155 /* Bridge.app */,
+				04BF95D82AC5E67100EC610F /* Flyweight.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0431D90D2AC4AD2C00A4B155 /* Bridge */ = {
+		04BF95DA2AC5E67100EC610F /* Flyweight */ = {
 			isa = PBXGroup;
 			children = (
-				04BF95C72AC5AB5200EC610F /* CustomDataType */,
-				04BF95C62AC5AB2900EC610F /* Controllers */,
-				04BF95C92AC5ABD000EC610F /* Views */,
-				04BF95C82AC5AB9000EC610F /* Supporting files */,
+				04BF95DB2AC5E67100EC610F /* AppDelegate.swift */,
+				04BF95DD2AC5E67100EC610F /* SceneDelegate.swift */,
+				04BF95DF2AC5E67100EC610F /* ViewController.swift */,
+				04BF95E12AC5E67100EC610F /* Main.storyboard */,
+				04BF95E42AC5E67200EC610F /* Assets.xcassets */,
+				04BF95E62AC5E67200EC610F /* LaunchScreen.storyboard */,
+				04BF95E92AC5E67200EC610F /* Info.plist */,
 			);
-			path = Bridge;
-			sourceTree = "<group>";
-		};
-		04BF95C62AC5AB2900EC610F /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				0431D9122AC4AD2C00A4B155 /* ViewController.swift */,
-			);
-			name = Controllers;
-			sourceTree = "<group>";
-		};
-		04BF95C72AC5AB5200EC610F /* CustomDataType */ = {
-			isa = PBXGroup;
-			children = (
-				0431D9222AC4AD4900A4B155 /* DayPickerView.swift */,
-			);
-			name = CustomDataType;
-			sourceTree = "<group>";
-		};
-		04BF95C82AC5AB9000EC610F /* Supporting files */ = {
-			isa = PBXGroup;
-			children = (
-				0431D9102AC4AD2C00A4B155 /* SceneDelegate.swift */,
-				0431D90E2AC4AD2C00A4B155 /* AppDelegate.swift */,
-				0431D9172AC4AD2D00A4B155 /* Assets.xcassets */,
-				0431D91C2AC4AD2D00A4B155 /* Info.plist */,
-			);
-			name = "Supporting files";
-			sourceTree = "<group>";
-		};
-		04BF95C92AC5ABD000EC610F /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				0431D9142AC4AD2C00A4B155 /* Main.storyboard */,
-				0431D9192AC4AD2D00A4B155 /* LaunchScreen.storyboard */,
-			);
-			name = Views;
+			path = Flyweight;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0431D90A2AC4AD2C00A4B155 /* Bridge */ = {
+		04BF95D72AC5E67100EC610F /* Flyweight */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0431D91F2AC4AD2D00A4B155 /* Build configuration list for PBXNativeTarget "Bridge" */;
+			buildConfigurationList = 04BF95EC2AC5E67200EC610F /* Build configuration list for PBXNativeTarget "Flyweight" */;
 			buildPhases = (
-				0431D9072AC4AD2C00A4B155 /* Sources */,
-				0431D9082AC4AD2C00A4B155 /* Frameworks */,
-				0431D9092AC4AD2C00A4B155 /* Resources */,
+				04BF95D42AC5E67100EC610F /* Sources */,
+				04BF95D52AC5E67100EC610F /* Frameworks */,
+				04BF95D62AC5E67100EC610F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Bridge;
-			productName = Bridge;
-			productReference = 0431D90B2AC4AD2C00A4B155 /* Bridge.app */;
+			name = Flyweight;
+			productName = Flyweight;
+			productReference = 04BF95D82AC5E67100EC610F /* Flyweight.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0431D9032AC4AD2C00A4B155 /* Project object */ = {
+		04BF95D02AC5E67100EC610F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					0431D90A2AC4AD2C00A4B155 = {
+					04BF95D72AC5E67100EC610F = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 0431D9062AC4AD2C00A4B155 /* Build configuration list for PBXProject "Bridge" */;
+			buildConfigurationList = 04BF95D32AC5E67100EC610F /* Build configuration list for PBXProject "Flyweight" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -145,56 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 0431D9022AC4AD2C00A4B155;
-			productRefGroup = 0431D90C2AC4AD2C00A4B155 /* Products */;
+			mainGroup = 04BF95CF2AC5E67100EC610F;
+			productRefGroup = 04BF95D92AC5E67100EC610F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0431D90A2AC4AD2C00A4B155 /* Bridge */,
+				04BF95D72AC5E67100EC610F /* Flyweight */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0431D9092AC4AD2C00A4B155 /* Resources */ = {
+		04BF95D62AC5E67100EC610F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0431D91B2AC4AD2D00A4B155 /* LaunchScreen.storyboard in Resources */,
-				0431D9182AC4AD2D00A4B155 /* Assets.xcassets in Resources */,
-				0431D9162AC4AD2C00A4B155 /* Main.storyboard in Resources */,
+				04BF95E82AC5E67200EC610F /* LaunchScreen.storyboard in Resources */,
+				04BF95E52AC5E67200EC610F /* Assets.xcassets in Resources */,
+				04BF95E32AC5E67100EC610F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0431D9072AC4AD2C00A4B155 /* Sources */ = {
+		04BF95D42AC5E67100EC610F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0431D9132AC4AD2C00A4B155 /* ViewController.swift in Sources */,
-				0431D9232AC4AD4900A4B155 /* DayPickerView.swift in Sources */,
-				0431D90F2AC4AD2C00A4B155 /* AppDelegate.swift in Sources */,
-				0431D9112AC4AD2C00A4B155 /* SceneDelegate.swift in Sources */,
+				04BF95E02AC5E67100EC610F /* ViewController.swift in Sources */,
+				04BF95DC2AC5E67100EC610F /* AppDelegate.swift in Sources */,
+				04BF95DE2AC5E67100EC610F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0431D9142AC4AD2C00A4B155 /* Main.storyboard */ = {
+		04BF95E12AC5E67100EC610F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0431D9152AC4AD2C00A4B155 /* Base */,
+				04BF95E22AC5E67100EC610F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		0431D9192AC4AD2D00A4B155 /* LaunchScreen.storyboard */ = {
+		04BF95E62AC5E67200EC610F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0431D91A2AC4AD2D00A4B155 /* Base */,
+				04BF95E72AC5E67200EC610F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -202,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0431D91D2AC4AD2D00A4B155 /* Debug */ = {
+		04BF95EA2AC5E67200EC610F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		0431D91E2AC4AD2D00A4B155 /* Release */ = {
+		04BF95EB2AC5E67200EC610F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -316,7 +280,7 @@
 			};
 			name = Release;
 		};
-		0431D9202AC4AD2D00A4B155 /* Debug */ = {
+		04BF95ED2AC5E67200EC610F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -324,7 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Bridge/Info.plist;
+				INFOPLIST_FILE = Flyweight/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -335,7 +299,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Heorhii.Bridge;
+				PRODUCT_BUNDLE_IDENTIFIER = Heorhii.Flyweight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -343,7 +307,7 @@
 			};
 			name = Debug;
 		};
-		0431D9212AC4AD2D00A4B155 /* Release */ = {
+		04BF95EE2AC5E67200EC610F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -351,7 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Bridge/Info.plist;
+				INFOPLIST_FILE = Flyweight/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -362,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Heorhii.Bridge;
+				PRODUCT_BUNDLE_IDENTIFIER = Heorhii.Flyweight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -373,25 +337,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0431D9062AC4AD2C00A4B155 /* Build configuration list for PBXProject "Bridge" */ = {
+		04BF95D32AC5E67100EC610F /* Build configuration list for PBXProject "Flyweight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0431D91D2AC4AD2D00A4B155 /* Debug */,
-				0431D91E2AC4AD2D00A4B155 /* Release */,
+				04BF95EA2AC5E67200EC610F /* Debug */,
+				04BF95EB2AC5E67200EC610F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0431D91F2AC4AD2D00A4B155 /* Build configuration list for PBXNativeTarget "Bridge" */ = {
+		04BF95EC2AC5E67200EC610F /* Build configuration list for PBXNativeTarget "Flyweight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0431D9202AC4AD2D00A4B155 /* Debug */,
-				0431D9212AC4AD2D00A4B155 /* Release */,
+				04BF95ED2AC5E67200EC610F /* Debug */,
+				04BF95EE2AC5E67200EC610F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0431D9032AC4AD2C00A4B155 /* Project object */;
+	rootObject = 04BF95D02AC5E67100EC610F /* Project object */;
 }
