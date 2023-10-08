@@ -64,10 +64,16 @@ extension ViewController: UITableViewDataSource {
 //MARK: - UITableViewDelegate
 extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-
-        let cell = tableView.cellForRow(at: indexPath) as! HeightResultVisitable
-
-        return cell.accept(HeightResultVisitor())
+        switch indexPath.row {
+            case 0:
+                return FirstCell().accept(HeightResultVisitor())
+            case 1:
+                return SecondCell().accept(HeightResultVisitor())
+            case 2:
+                return ThirdCell().accept(HeightResultVisitor())
+            default:
+                return UITableView.automaticDimension
+            }
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
